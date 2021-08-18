@@ -1,6 +1,6 @@
 /**
- * Repeater - v1.0
- * Copyright 2020 Abel Brencsan
+ * Repeater - v1.1.1
+ * Copyright 2021 Abel Brencsan
  * Released under the MIT License
  */
 
@@ -137,13 +137,6 @@ Repeater.prototype = function () {
 		},
 
 		/**
-		 * Get value of "isInitialized" to be able to check repeater is initialized. (public)
-		 */
-		getIsInitialized: function() {
-			return this.isInitialized;
-		},
-
-		/**
 		 * Get value of repeater "guid". (public)
 		 */
 		getGuid: function() {
@@ -156,7 +149,6 @@ Repeater.prototype = function () {
 		add: repeater.add,
 		remove: repeater.remove,
 		destroy: repeater.destroy,
-		getIsInitialized: repeater.getIsInitialized,
 		getGuid: repeater.getGuid
 	};
 

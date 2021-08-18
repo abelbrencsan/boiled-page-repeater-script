@@ -95,10 +95,6 @@ Parameter | Type | Required | Description
 
 `destroy()` - Destroy repeater. It removes all repeater items and related events.
 
-### Check repeater is initialized
-
-`getIsInitialized()` - Check repeater is initialized or not. It returns `true` when it is initialized, `false` if not.
-
 ### Get GUID
 
 `getGuid()` - Get last created GUID of repeater.
